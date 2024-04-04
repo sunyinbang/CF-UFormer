@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pytorch_colors/__init__.py
+pytorch_colors.egg-info/PKG-INFO
+pytorch_colors.egg-info/SOURCES.txt
+pytorch_colors.egg-info/dependency_links.txt
+pytorch_colors.egg-info/top_level.txt
