@@ -95,7 +95,7 @@ You need to modify the config for your own training environment.
 
 ### Results on MEF
 
-![MEF](C:\Users\Administrator\Desktop\论文图像\MEF.jpg)
+![MEF](figures/MEF.jpg)
 
 ## Contact
 
