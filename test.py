@@ -1,7 +1,3 @@
-## Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method
-## Tao Wang, Kaihao Zhang, Tianrun Shen, Wenhan Luo, Bjorn Stenger, Tong Lu
-## https://arxiv.org/pdf/2212.11548.pdf
-
 import torch
 import torchvision.transforms.functional as TF
 import torch.nn.functional as F
