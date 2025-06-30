@@ -2,8 +2,6 @@
 
 ## [YinBang Sun]((https://github.com/sunyinbang)), Jing Sun, Fuming Sun,  Fasheng Wang, Haojie Li  
 
->**Abstract:** Low-Light Image Enhancement (LLIE) aims to optimize images captured in low-light conditions with low brightness and contrast, rendering them natural-looking images that are more aligned with the human visual system. However, existing methods could not simultaneously solve the problems of color distortion, noise amplification and loss of details during the enhancement process. To this end, we propose a novel low-light image enhancement network, referred to as U-shape Transformer with Color Fusion (CF-UFormer), which employs Transformer Block as its fundamental element and comprises three modules: Feature Extraction Module (FEM), U-Former structure, and Refinement Module (RM). Firstly, FEM leverages three color spaces with different color gamuts to extract shallow features, thus retaining a wealth of color and detail information in the enhanced image. In addition, we take the Channel Attention Mechanism (CAM) to the U-Former structure to compensate for the lack of spatial dimension information interaction, which can suppress the noise amplification caused by continuous downsampling through adaptively learning the weight parameters between channels. Finally, to deal with the single expression ability of the L1 loss function used in most existing methods, CF-UFormer selects four loss functions to train on the LOL dataset, resulting in excellent qualitative and quantitative evaluation criteria on various benchmark datasets. The codes and models are available at https://github.com/sunyinbang/CF-UFormer.
-
 This repository contains the dataset, code and pre-trained models for our paper.
 
 ## Network Architecture
@@ -74,30 +72,19 @@ python train.py --opt your_config_path
 ```
 You need to modify the config for your own training environment.
 ```
-
-## Quantitative results
-
-### Results onLOL
-
-![LOL](figures/LOL.jpg)
-
-### Results on LSRW
-
-![LSRW_Huawei](figures/LSRW_Huawei.jpg)
-
-![LSRW_Nikon](figures/LSRW_Nikon.jpg)
-
-## Qualitative results
-
-### Results on LOL
-
-![wardrobe](figures/wardrobe.jpg)
-
-### Results on MEF
-
-![MEF](figures/MEF.jpg)
-
-## Contact
+## Citation
+```
+@article{sun2024low,
+  title={Low-light image enhancement using transformer with color fusion and channel attention},
+  author={Sun, Yinbang and Sun, Jing and Sun, Fuming and Wang, Fasheng and Li, Haojie},
+  journal={The Journal of Supercomputing},
+  volume={80},
+  number={13},
+  pages={18365--18391},
+  year={2024},
+  publisher={Springer}
+}
+```
 
 If you have any questions, please contact kevinbang@126.com
 
